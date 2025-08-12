@@ -6,6 +6,7 @@ body {
   color: #c9d1d9;
   line-height: 1.6;
 }
+
 header {
   background: #161b22;
   color: #58a6ff;
@@ -46,12 +47,15 @@ header p {
   justify-content: center;
 }
 
-.contact-item svg.icon {
+.contact-item svg {
   width: 20px;
   height: 20px;
-  fill: currentColor;
-  flex-shrink: 0;
-  transition: fill 0.3s ease;
+  /* ... other styles */
+}
+
+.contact-item:hover svg,
+.contact-item:focus-within svg {
+  fill: #79c0ff;
 }
 
 .contact-item a {
@@ -65,11 +69,6 @@ header p {
 .contact-item a:focus {
   color: #79c0ff;
   text-decoration: underline;
-}
-
-.contact-item:hover svg.icon,
-.contact-item:focus-within svg.icon {
-  fill: #79c0ff;
 }
 
 @media (max-width: 600px) {
@@ -133,14 +132,6 @@ a:focus {
 a:focus-visible {
   outline: 2px solid #79c0ff;
   outline-offset: 2px;
-}
-
-#contact {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem 1rem;
-  border-top: 1px solid #30363d;
-  color: #ccd0d5;
 }
 
 footer {
