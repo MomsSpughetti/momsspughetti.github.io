@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,100 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdalla Egbareia | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-  <header>
+<header>
     <h1>Abdalla Egbareia</h1>
-    <p>Software Developer | Cybersecurity Enthusiast</p>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a recent Computer Science graduate from the Technion, passionate 
-      about writing efficient code, digging into system internals, and crafting 
-      tools that actually make life easier. I'm currently working on RedisLite, 
-      a C++ memory-cache library, and love contributing to open source.
+    <p>Software Developer | Open Source Contributor | Cybersecurity Enthusiast</p>
+    <div class="contact-container">
+    <p class="contact-item">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+    </svg>
+        Email: <a href="mailto:abdallaegbareia@gmail.com">abdallaegbareia@gmail.com</a>
     </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>Linux Shell</strong>: A custom shell implementation for Linux in C++, supporting command parsing and job control.
-        <a href="https://github.com/MomsSpughetti/smash" target="_blank">View on GitHub</a>
-      </li>
-
-      <li>
-        <strong>Python Habit Tracker</strong>: A personal CLI habit-tracking tool written in Python and published to PyPI.
-        Uses a SQLite database to store habits and tracking data, and integrates AI via Hugging Face to answer user queries and recommend habits based on goals. Easily installed with pip, cross-platform, supports automatic startup, and runs from the shell. <br />
-        <a href="https://pypi.org/project/cmd-habit-tracker/" target="_blank">View on PyPI</a>
-      </li>
-
-      <li>
-        <strong>Spaces Android App</strong>: Developed an Android application fostering a non-toxic, fair environment for debates and discussions. Users create timed rooms around controversial topics; discussions open only after a set time with balanced pro/against participation. Features include message rating, pinning top messages, and AI-generated summaries of debates published for future users.<br />
-        <a href="https://play.google.com/store/apps/details?id=com.technion.android.spaces" target="_blank">View on Google Play</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="contributions">
-  <h2>Open-source contributions</h2>
-  <ul>
-    <li>
-      <strong>GraphOnline Contribution</strong>: Added a backend implementation of the <em>Maximum Independent Set (MIS)</em> algorithm, expanding the set of graph algorithms available on the site. <br />
-      <a href="https://github.com/UnickSoft/GraphOffline/pull/10" target="_blank">View PR on GitHub</a> |
-      <a href="https://graphonline.top/en/" target="_blank">Visit GraphOnline</a>
-    </li>
-  </ul>
-  </section>
-
-  
-  <section id="certifications">
-  <h2>Certifications</h2>
-  <ul>
-    <li>
-      <strong>Backend Development with Node.js and Express (Coursera)</strong><br />
-      <a href="https://coursera.org/share/bc61017abb2b83cbcdcd1a055ffdc62e" target="_blank">View Certification</a>
-    </li>
-    <li>
-      <strong>Pre Security Learning Path from TryHackMe</strong><br />
-      <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6ZL2HPOLST.pdf" target="_blank">View Certification</a>
-    </li>
-  </ul>
-  </section>
-
-  
-  <section id="Experience">
-  <h2>Experience</h2>
-  <ul>
-    <li>
-      <strong>Software Engineering Intern - Carl Zeiss</strong>: Completed a 4-month solo internship through a Technion industry-academia program. Independently designed and developed a full-stack internal platform (Next.js frontend, NestJS backend), working in a hybrid setup under the mentorship of a company manager who provided ongoing feedback.</li>
-      <a href="https://www.dropbox.com/scl/fi/gczmuh4rolyt81v4fgp0b/.pdf?rlkey=gr7z3kyhltlgk8sqwdbdqtuin&st=swajgfuq&dl=0">View Certificate Of Completion</a>
-    </li>
-  </ul>
-  </section>
-
-  <section id="working_on">
-    <h2>Now Building:</h2>
-    <ul>
-      <li>
-        <strong>LiteRedis</strong>: A custom Redis-inspired in-memory data store
-        implemented in C++, built as a reusable library. <br />
-        <a href="https://github.com/MomsSpughetti/LiteRedis" target="_blank">View GitHub Repo</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      GitHub: <a href="https://github.com/MomsSpughetti" target="_blank">@MomsSpughetti</a><br />
-      Email: <a href="mailto:abdallaegbareia@gmail.com">abdallaegbareia@gmail.com</a><br />
-      LinkedIn: <a href="https://www.linkedin.com/in/abdalla-egbareia-b46035230/">Abdalla Egbareia</a>
+    <p class="contact-item">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+    </svg>
+        GitHub: <a href="https://github.com/MomsSpughetti" target="_blank" rel="noopener noreferrer">@MomsSpughetti</a>
     </p>
-  </section>
+    <p class="contact-item">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+    </svg>
+        LinkedIn: <a href="https://www.linkedin.com/in/abdalla-egbareia-b46035230/" target="_blank" rel="noopener noreferrer">Abdalla Egbareia</a>
+    </p>
+    </div>
+</header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a recent Computer Science graduate from the Technion, passionate 
+        about writing efficient code, digging into system internals, and crafting 
+        tools that improve developer productivity. I'm currently working on RedisLite, 
+        a C++ memory-cache library, and love contributing to open source.
+      </p>
+    </section>
+
+    <section id="current-focus">
+      <h2>Now Building</h2>
+      <ul>
+        <li>
+          <strong>LiteRedis</strong>: A custom Redis-inspired in-memory data store
+          implemented in C++, built as a reusable library. <br />
+          <a href="https://github.com/MomsSpughetti/LiteRedis" target="_blank" rel="noopener noreferrer">View GitHub Repo</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Linux Shell</strong>: A custom shell implementation for Linux in C++, supporting command parsing and job control.
+          <br /><a href="https://github.com/MomsSpughetti/smash" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </li>
+        <li>
+          <strong>Python Habit Tracker</strong>: A personal CLI habit-tracking tool written in Python and published to PyPI.
+          Uses a SQLite database to store habits and tracking data, and integrates AI via Hugging Face to answer user queries and recommend habits based on goals. Easily installed with pip, cross-platform, supports automatic startup, and runs from the shell.
+          <br /><a href="https://pypi.org/project/cmd-habit-tracker/" target="_blank" rel="noopener noreferrer">View on PyPI</a>
+        </li>
+        <li>
+          <strong>Spaces Android App</strong>: Developed an Android application fostering a non-toxic, fair environment for debates and discussions. Users create timed rooms around controversial topics; discussions open only after a set time with balanced pro/against participation. Features include message rating, pinning top messages, and AI-generated summaries of debates published for future users.
+          <br /><a href="https://play.google.com/store/apps/details?id=com.technion.android.spaces" target="_blank" rel="noopener noreferrer">View on Google Play</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>Software Engineering Intern - Carl Zeiss</strong>: Completed a 4-month solo internship through a Technion industry-academia program. Independently designed and developed a full-stack internal platform (Next.js frontend, NestJS backend), working in a hybrid setup under the mentorship of a company manager who provided ongoing feedback.
+          <br /><a href="https://www.dropbox.com/scl/fi/gczmuh4rolyt81v4fgp0b/.pdf?rlkey=gr7z3kyhltlgk8sqwdbdqtuin&st=swajgfuq&dl=0" target="_blank" rel="noopener noreferrer">View Certificate Of Completion</a>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="contributions">
+      <h2>Open-source Contributions</h2>
+      <ul>
+        <li>
+          <strong>GraphOnline Contribution</strong>: Added a backend implementation of the <em>Maximum Independent Set (MIS)</em> algorithm, expanding the set of graph algorithms available on the site.
+          <br />
+          <a href="https://github.com/UnickSoft/GraphOffline/pull/10" target="_blank" rel="noopener noreferrer">View PR on GitHub</a> |
+          <a href="https://graphonline.top/en/" target="_blank" rel="noopener noreferrer">Visit GraphOnline</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>
+          <strong>Backend Development with Node.js and Express (Coursera)</strong> — Mastered REST API design, middleware, and server-side programming.
+          <br /><a href="https://coursera.org/share/bc61017abb2b83cbcdcd1a055ffdc62e" target="_blank" rel="noopener noreferrer">View Certification</a>
+        </li>
+        <li>
+          <strong>Pre Security Learning Path from TryHackMe</strong> — Developed foundational cybersecurity skills and hands-on threat mitigation knowledge.
+          <br /><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-6ZL2HPOLST.pdf" target="_blank" rel="noopener noreferrer">View Certification</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="now-learning">
+      <h2>Now Learning</h2>
+      <ul>
+        <li>
+          <strong>Cisco CCNA JITL (Udemy)</strong> — Deepening my understanding of networking fundamentals, routing, switching, and infrastructure essentials.
+        </li>
+        <li>
+          <strong>Introduction to Containers with Docker, Kubernetes & OpenShift (Coursera, IBM)</strong> — Building foundational knowledge of containerization and orchestration technologies.
+        </li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
     <p>"Code is like humor. When you have to explain it, it’s bad."</p>
